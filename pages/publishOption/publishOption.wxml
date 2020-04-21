@@ -1,0 +1,31 @@
+<!--pages/publishOption/publishOption.wxml-->
+<view>
+  <image class="optionBarIcon publishOptionBar"></image>
+  <text class="optionBarInfo">发布设置 PUBLISH SETTING</text>
+
+<view class='optionInnerbar'>
+
+    <view class='optionInnerTool optionInnerToolPlubish'>
+  <view class='optionBarInnerIcon PlubishBtn '></view>
+  <text class='PlubishBtnChinese'>发布</text>
+  <text class='PlubishBtnEnglish'>plubish</text>
+  </view>
+
+    <view class='optionInnerTool optionInnerToolFlip'>
+  <view class='optionBarInnerIcon FlipBtn '></view>
+  <text class='FlipBtnChinese'>翻翻书</text>
+  <text class='FlipBtnEnglish'>flip book</text>
+  </view>
+
+    <view class='optionInnerTool optionInnerToolShare'>
+  <view class='optionBarInnerIcon ShareBtn '></view>
+  <text class='ShareBtnChinese'>分享</text>
+  <text class='ShareBtnEnglish'>share</text>
+  </view>
+
+</view>
+
+
+</view>
+
+

@@ -1,0 +1,28 @@
+/* pages/framesQueue/framesQueue.wxss */
+.queueImg{
+  transform:rotate(90deg);
+  background-image: -webkit-linear-gradient( 0deg, rgb(115,115,115) 0%, rgb(179,179,179) 100%);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  position: absolute;
+  top: -298rpx;
+  left: 260rpx;
+  width: 195rpx;
+  height: 800rpx;
+  padding: 10rpx 10rpx 10rpx 10rpx;
+
+}
+.frame{
+  width: 130rpx;
+  height: 230rpx;
+  transform:rotate(-90deg);
+
+
+}
+.frameSelected{
+  width: 130rpx;
+  height: 230rpx; 
+  transform:rotate(-90deg);
+  border:solid white 2px;
+}

@@ -1,0 +1,20 @@
+<!-- 相机控制 -->
+<view>
+  <image class="optionBarIcon cameraOptionBar"></image>
+  <text class="optionBarInfo">相机控制 CAMERA CONTROL</text>
+
+  <view class='optionInnerbar'>
+
+    <view class='optionInnerTool optionInnerToolGrid'>
+     <view class='optionBarInnerIcon GridBtn '></view>
+     <text class='GridBtnChinese'>网格</text>
+     <text class='GridBtnEnglish'>Grid</text>
+    </view> 
+
+    <view class='optionInnerTool optionInnerToolOnion'>
+      <view class='optionBarInnerIcon OnionBtn '></view>
+      <text class='OnionBtnChinese'>洋葱皮</text>
+      <text class='OnionBtnEnglish'>ONION</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/KeyColor/KeyColor.wxml-->
+<view>
+  <image class="optionBarIcon KeyColorBar"></image>
+  <text class="optionBarInfo">抠像设置 KEY COLOR SETTING</text>
+
+<view class='optionInnerbar'>
+
+  <view class='optionInnerTool optionInnerToolKeyColor'>
+  <view class='optionBarInnerIcon KeyColorBtn'></view>
+  <text class='KeyColorBtnChinese'>键色 :</text>
+  <text class='KeyColorBtnEnglish'>key color :</text>
+  <view class='optionBarInnerIcon selectColor'></view>
+  </view>
+  
+    <view class='optionInnerTool optionInnerToolSelectBackground'>
+  <view class='optionBarInnerIcon SelectBackgroundBtn'></view>
+  <text class='SelectBackgroundBtnChinese'>选取背景图 :</text>
+  <text class='SelectBackgroundBtnEnglish'>background image :</text>
+  <text class='SelectBackgroundPath'>C:images/files/phpto</text>
+  </view>
+
+    <view class='optionInnerTool optionInnerToolIsKeyOut'>
+  <view class='optionBarInnerIcon IsKeyOutBtn'></view>
+    <view class='optionBarInnerIcon IsNotKeyOutBtn  isNotDisplay'></view>
+  <text class='IsKeyOutBtnChinese'>是否抠像 : </text>
+  <text class='IsKeyOutBtnEnglish'>Whether key out color or not :</text>
+  </view>
+
+</view>
+
+</view>

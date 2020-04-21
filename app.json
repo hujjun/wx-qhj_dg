@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/qhj/qhj",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7f7f7f",
+    "navigationBarTitleText": "轻画剧"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/qhj/qhj",
+        "text": "编辑器"
+      }
+    ],
+    "color": "#fff",
+    "selectedColor": "black",
+    "backgroundColor": "#7f7f7f"
+  }
+}

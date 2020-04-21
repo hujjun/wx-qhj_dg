@@ -1,0 +1,28 @@
+<!--pages/ TimeLapseOption/ TimeLapseOption.wxml-->
+<view>
+
+  <image class="optionBarIcon TimeLapseBar"></image>
+  <text class="optionBarInfo">延时摄影 TIME LAPSE SETTING</text>
+
+<view class='optionInnerbar' >
+
+  <view class='optionInnerTool optionInnerToolTimeLapse'>
+    <image class="optionBarInnerIcon TimeLapseTimeSpace"></image>
+    <input type='number' maxlength='4'></input>
+  </view>
+
+  <view class='optionInnerTool optionInnerToolTerminalTime'>
+    <image class="optionBarInnerIcon TimeLapseTerminalTime"></image>
+    <input type='number' maxlength='4'></input>
+  </view>
+
+  <view class='optionInnerTool optionInnerToolStart'>
+    <view class="optionBarInnerIcon TimeLapseStart"></view>
+    <text class='TimeLapseStartChinese'>开始</text>
+    <text class='TimeLapseStartEnglish'>START</text>
+  </view>
+
+    </view>
+
+</view>
+

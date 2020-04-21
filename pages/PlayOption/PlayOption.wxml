@@ -1,0 +1,68 @@
+<!--pages/PlayOption/PlayOption.wxml-->
+<view>
+  <image class="optionBarIcon PlayBar"></image>
+  <text class="optionBarInfo">播放控制 PLAYING CONTROL</text>
+
+<view class='optionInnerbar'>
+
+    <view class='optionInnerTool optionInnerToolToStart'>
+  <view class='optionBarInnerIcon ToStartBtn'></view>
+  <text class='ToStartBtnChinese'>回头 </text>
+  <text class='ToStartBtnEnglish'>to start</text>
+  </view>
+
+    <view class='optionInnerTool optionInnerToolStepBackground'>
+  <view class='optionBarInnerIcon StepBackgroundBtn'></view>
+  <text class='StepBackgroundBtnChinese'>步进 </text>
+  <text class='StepBackgroundBtnEnglishStep'>step</text>
+  <text class='StepBackgroundBtnEnglishBackground'>background</text>
+  </view>
+
+    <view class='optionInnerTool optionInnerToolPlay'>
+  <view class='optionBarInnerIcon PlayBtn'></view>
+  <text class='PlayBtnChinese'>播放</text>
+  <text class='PlayBtnEnglish'>play</text>
+  </view>
+
+    <view class='optionInnerTool optionInnerToolPause isNotDisplay'>
+  <view class='optionBarInnerIcon PauseBtn'></view>
+  <text class='PauseBtnChinese'>暂停</text>
+  <text class='PauseBtnEnglish'>pause</text>
+  </view>
+
+    <view class='optionInnerTool optionInnerToolPlaySelected'>
+  <view class='optionBarInnerIcon PlaySelectedBtn'></view>
+  <text class='PlaySelectedBtnChinese'>播放选择</text>
+  <text class='PlaySelectedBtnEnglishPlay'>play</text>  <text class='PlaySelectedBtnEnglishSelected'>selected</text>
+  </view>
+
+    <view class='optionInnerTool optionInnerToolStepForward'>
+  <view class='optionBarInnerIcon StepForwardBtn'></view>
+  <text class='StepForwardBtnChinese'>步进</text>
+  <text class='StepForwardBtnEnglishStep'>step</text>
+  <text class='StepForwardBtnEnglishForward'>forward</text>
+  </view>
+
+    <view class='optionInnerTool optionInnerToolToEnd'>
+  <view class='optionBarInnerIcon ToEndBtn'></view>
+  <text class='ToEndBtnChinese'>结尾</text>
+  <text class='ToEndBtnEnglish'>to end</text>
+  </view>
+
+    <view class='optionInnerTool optionInnerToolLoop'>
+  <view class='optionBarInnerIcon LoopBtn  isNotDisplay'></view>
+    <view class='optionBarInnerIcon LoopOnceBtn'></view>
+  <text class='LoopBtnChinese'>循环</text>
+  <text class='LoopBtnEnglish'>loop</text>
+  </view>
+
+    <view class='optionInnerTool optionInnerToolSound'>
+  <view class='optionBarInnerIcon SoundBtn '></view>
+    <view class='optionBarInnerIcon NoSoundBtn isNotDisplay'></view>
+  <text class='SoundBtnChinese'>静音</text>
+  <text class='SoundBtnEnglish'>sound</text>
+  </view>
+
+
+</view>
+</view>

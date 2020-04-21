@@ -1,0 +1,19 @@
+<!--pages/camera/camera.wxml-->
+    <view class="viewPlay">
+        <image src="" mode="aspectFill" >
+        </image>
+          <camera flash="off" binderror="error" device-position="{{cameraDirection}}" class="camera" >
+        </camera>
+  <!--相机设置参数面板-->
+        <view class='infoBar'>
+          <text class='infoText' bindtap='test'>current frame: <text class='infoValue'>12/106</text></text>
+          <text class='infoText'>current time:           <text class='infoValue'>1.0/10.0</text>s</text>
+
+          <text class='infoText'>@<text class='infoValue'>{{fps}}</text>fps</text>
+        </view>
+        <view class='otherPanel'>
+          <view class="insertCamera"></view>
+          <view class='help'></view>
+        </view>
+    </view>
+

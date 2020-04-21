@@ -1,0 +1,55 @@
+/* pages/home/home.wxss */
+swiper{
+  height: 350rpx;
+}
+.swi{
+  height: 350rpx !important;
+}
+.swi image{
+  width: 100%;
+  height: 100%
+}
+.more{
+  height: 370rpx;
+}
+.more-tit{
+  height: 80rpx;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 80rpx;
+  padding-left: 20rpx
+}
+.more-tit navigator{
+  float: right;
+  margin-right: 20rpx;
+  font-weight: normal
+}
+.more-cont{
+  height: 270rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+.more-cont image{
+  width: 220rpx;
+  height: 210rpx;
+  display: block;
+  margin: 0 auto;
+}
+.more-cont text{
+  display: block;
+  text-align: center;
+  font-size: 14px; 
+}
+.itt{
+  height: 100%;
+  width:100%;
+  color:#ccc;
+  padding:0 40px;
+}
+.itti{
+  height:100%;
+  width:100%;
+  color:black;
+  padding:0 120px;
+}

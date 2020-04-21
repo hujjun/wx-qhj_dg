@@ -1,0 +1,44 @@
+<!-- banner -->
+<view >
+  <swiper indicator-dots="true" autoplay='true' circular="true" interval='3000'>
+    <swiper-item class="swi" wx:for="{{imgUrl}}" wx:for-item="natasa" wx:for-index="keqiusa">
+      <image id='{{keqiusa}}' src='{{natasa}}'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 更多 -->
+<!-- 推荐歌曲 -->
+<view class='more'>
+  <view class='more-tit'>
+    <text>公告列表</text>
+    <navigator>更多</navigator>
+  </view>
+  <view class='more-cont'>
+    <view wx:for="{{recomLists}}">
+      <image src='{{item.url}}'></image>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+</view>
+<!-- 歌手 -->
+<view class='more'>
+  <view class='more-tit'>
+    <text>推荐列表</text>
+    <navigator>更多</navigator>
+  </view>
+  <view class='more-cont'>
+    <view wx:for="{{uploadLists}}">
+      <image src='{{item.url}}'></image>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+</view>
+<view class="itt">
+   <text> 
+  ©2015 南京跃思界信息技术有限公司 
+       苏ICP备15005544号-1</text>
+       QQ:4332936
+</view>
+<view class="itti">
+  <text>我是有底线的！</text>
+</view>

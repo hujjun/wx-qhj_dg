@@ -1,0 +1,55 @@
+<!--pages/VoiceOption/VoiceOption.wxml-->
+<view>
+  <image class="optionBarIcon VoiceOptionBar"></image>
+  <text class="optionBarInfo">声音设置 SOUND SETTING</text>
+
+<view class='optionInnerbar' >
+
+    <view class='optionInnerTool optionInnerToolVoiceName'>
+
+  <text>音轨名 name: </text>
+  <text>1.mp3</text>
+  </view>
+
+    <view class='optionInnerTool optionInnerToolVoiceLength'>
+
+  <text>长度 length: </text>
+  <text>50s</text>
+  </view>
+
+    <view class='optionInnerTool optionInnerToolSetVoice'>
+  <view class='fromPanel'>
+      <text>从from: </text><input type='number' value='88' class='SetVoiceFrom'></input>
+  </view>
+  <view class='toPanel'>
+        <text>到 to:</text><input type='number' value='98' class='SetVoiceTo'></input>
+  </view>
+  </view>
+
+  <view class='optionInnerTool optionInnerToolRecord'>
+  <view class='optionBarInnerIcon recordBtnStart'></view>
+  <text class='recordBtnStartChinese'>录音</text>
+  <text class='recordBtnStartEnglish'>RECORD</text>
+  </view>
+
+  <view class='optionInnerTool optionInnerToolRecord  isNotDisplay'>
+  <view class='optionBarInnerIcon recordBtnStop'></view>
+  <text class='recordBtnStopChinese'>停止</text>
+  <text class='recordBtnStopEnglish'>Stop</text>
+  </view>
+
+  <view class='optionInnerTool optionInnerToolImport'>
+  <view class='optionBarInnerIcon VoiceImportBtn'></view>
+  <text class='VoiceImportBtnChinese'>导入</text>
+  <text class='VoiceImportBtnEnglish'>IMPORT</text>
+  </view>
+
+  <view class='optionInnerTool optionInnerToolDelete'>
+  <view class='optionBarInnerIcon VoiceDeleteBtn'></view>
+  <text class='VoiceDeleteBtnChinese'>删除</text>
+  <text class='VoiceDeleteBtnEnglish'>DELETE</text>
+  </view>
+
+</view>
+
+</view>

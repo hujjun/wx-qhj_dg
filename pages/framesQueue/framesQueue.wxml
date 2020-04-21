@@ -1,0 +1,11 @@
+<!--pages/framesQueue/framesQueue.wxml-->
+      <scroll-view scroll-y="true" class="queueImg">
+        <!-- <view wx:for="{{array}}" wx:key="item">
+            <image class="{{currId==item.id?'frameSelected':'frame'}}" id="{{item.id}}" src="{{item.path}}" bindtap="frameEvent" data-path="{{item.path}}" data-selected="{{item.lock}}">
+            </image>
+        </view> -->
+        <view>
+            <image class="frame"src="">
+            </image>
+        </view>
+      </scroll-view>
